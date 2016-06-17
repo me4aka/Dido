@@ -1,0 +1,25 @@
+#pic-holder
+{
+    position:relative;
+    width: 150px;
+    height: 200px;
+    background: white;
+    border: 1px solid;
+    margin-bottom: 10px;
+
+}
+
+#pic-holder > img{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+
+}
+
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th
+{
+    border: none;
+    word-wrap:break-word;
+
+}
+

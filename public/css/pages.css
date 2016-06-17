@@ -1,0 +1,26 @@
+.contact-logo
+{
+    color: dimgrey !important;
+}
+
+.stripe
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin-left: 50px;
+    width:300px;
+    height: auto;
+    background-color: #ffffff;
+    opacity: 0.4;
+    z-index: 9;
+}
+
+.desc
+{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
