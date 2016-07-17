@@ -5,11 +5,14 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	{!! Html::style('/packages/bootstrap/css/bootstrap.min.css') !!}
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified jquery -->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="<?php echo asset('css/effect13.css')?>" type="text/css">
 	<link rel="stylesheet" href="<?php echo asset('css/thumbnail.css')?>" type="text/css">
@@ -27,9 +30,12 @@
 	</style>
 
 	@yield('pagetitle')
+	@yield('head')
 </head>
 
 <body>
 	@yield('content')
 </body>
+
+	@yield('footer')
 </html>

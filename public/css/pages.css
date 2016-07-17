@@ -1,26 +1,34 @@
-.contact-logo
-{
-    color: dimgrey !important;
+body {
+    font-family: 'Lato';
 }
 
-.stripe
-{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right:0;
-    margin-left: 50px;
-    width:300px;
-    height: auto;
-    background-color: #ffffff;
-    opacity: 0.4;
-    z-index: 9;
+.fa-btn {
+    margin-right: 6px;
 }
 
-.desc
-{
-    position: absolute;
-    top: 50%;
-    right: 50%;
+.navbar{
+    background-color: #63b7af ;
 }
+body{
+    background-color: #63b7af;
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+.navbar-text {
+    color:#FFFFFF;
+}
+
+.navbar-brand {
+    color:#FFFFFF;
+}
+
+.btn{
+    background-color: #3c5d5d;
+    color:#FFFFFF;
+}
+
